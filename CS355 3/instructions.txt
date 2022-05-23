@@ -1,0 +1,4 @@
+1. Install Node.js
+2. If you do not see a node_modules folder, run 'npm install'
+3. To start the app, type 'npm run start' into terminal
+4. If you want to open the project in the browser, navigate to localhost:3001/budget-tracker.html

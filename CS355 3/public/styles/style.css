@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;300;400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'League Spartan', sans-serif;
+}
+
+body {
+  background: #efefef;
+  color: #424242;
+}
+
+.navbar {
+  background-color: #333;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.navbar li a:hover {
+  background-color: #111;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 45px;
+}
+
+h3 {
+  font-size: 40px;
+}
+
+h4 {
+  font-size: 35px;
+}
+
+h5 {
+  font-size: 30px;
+}
+
+h6 {
+  font-size: 25px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.lead {
+  font-size: 25px;
+  color: rgb(168, 168, 168);
+}
+
+.mb-sm {
+  margin-bottom: 5px;
+}
+
+.mb-md {
+  margin-bottom: 10px;
+}
+
+.mb-lg {
+  margin-bottom: 15px;
+}
+
+.hidden {
+  display: none !important;
+}
+
+input:focus, textarea:focus, select:focus{
+  outline-color: #424242;
+}
+
+.color-green {
+  color: #3bd178;
+}
+
+.color-red {
+  color: #ff6f6f;
+}
+
+.container {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.budget-tracker {
+  width: 100%;
+  max-width: 900px;
+  margin: 15px auto;
+  padding: 40px;
+  border-radius: 10px;
+  background: #FFF;
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+
+.budget-form {
+  margin: 20px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+input {
+  padding: 16px;
+  background: whitesmoke;
+  border: none;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+select {
+  padding: 15px;
+  background: whitesmoke;
+  border: none;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.btn {
+  padding: 17px 20px;
+  margin: 10px 0px;
+  background: #2e2e2e;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.btn-sm {
+  padding: 8px 13px;
+  font-size: 10px;
+}
+
+.btn-danger {
+  background: #ff6f6f;
+}
+
+.btn-success {
+  background: #3bd178;
+}
+
+.btn-grey {
+  background: gray;
+}
+
+.stats-container {
+  display: flex;
+  gap: 45px;
+  flex-wrap: wrap;
+}
+
+.stat {
+  text-align: center;
+  margin: 10px 0px;
+}
+
+.stat-title {
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.stat-value {
+  display: block;
+  font-weight: 300;
+  font-size: 30px;
+}
+
+.transactions-table-container {
+  overflow: auto;
+}
+
+.transactions-table {
+  width: 100%;
+  min-width: 600px;
+  text-align: center;
+  table-layout: fixed;
+  border-collapse: collapse;
+  overflow-x: scroll;
+}
+
+.transactions-table {
+  border: 10px solid #f5f5f5;
+}
+
+.transactions-table th {
+  padding: 20px 0;
+}
+
+.transactions-table td {
+  padding: 5px;
+}
+
+.datepicker-cell.selected, .datepicker-cell.selected:hover {
+  background-color: #2e2e2e !important;
+}
+
+.table-header {
+  background: whitesmoke;
+  padding: 15px;
+}
+
+.transactions tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+select {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.select-wrapper {
+  position: relative;
+}
+
+.select-wrapper::after {
+  content: "▼";
+  font-size: 8px;
+  top: 18px;
+  right: 10px;
+  position: absolute;
+}
+
+.card {
+  width: 100%;
+  max-width: 900px;
+  margin: 15px auto;
+  padding: 40px;
+  border-radius: 10px;
+  background: #FFF;
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+
+.joke {
+  font-size: 30px;
+  font-style: italic;
+  color: #8f8f8f;
+  background: #ededed;
+  padding: 20px;
+}
+
+.movie-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 200px);
+  overflow: auto;
+}
+
+.movie-img {
+  height: 300px;
+  width: 180px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+
+.feed {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.feed img {
+  height: 150px;
+  width: 150px;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+#todoList {
+  list-style: none;
+}
+
+.todo-item label {
+  margin: 0 10px;
+}
+
+.todo-item > .delete {
+  margin-left: 10px;
+}
+
+.pokemon-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.pokemon-info img {
+  height: 100px;
+  width: 100px;
+}
+
+.pokemon-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
